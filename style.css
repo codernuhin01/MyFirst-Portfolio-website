@@ -9,4 +9,17 @@
 }
 .hero-section {
   background-color: #343a40;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #d7d7d7;
+}
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-items {
+  display: flex;
+  gap: 40px;
+}
+#name {
+  /* flex: 1; */
 }
