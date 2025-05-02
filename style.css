@@ -6,20 +6,155 @@
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 36px;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.hero-section {
-  background-color: #343a40;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+.hero-section,
+header,
+.about-section,
+.experience-section {
+  background-color: #393e46;
   color: #d7d7d7;
+  padding-bottom: 48px;
+  border-bottom: 1px solid #4a4a4a;
+}
+header {
+  padding-bottom: 0;
 }
 .main-nav {
   display: flex;
   justify-content: space-between;
+  /* margin-bottom: 36px; */
 }
 .nav-items {
   display: flex;
   gap: 40px;
+  font-size: 20px;
+}
+.nav-items a {
+  display: inline-block;
+  text-decoration: none;
+  color: #d2d2d2;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.nav-items a:hover {
+  color: #aeaeae;
 }
 #name {
-  /* flex: 1; */
+  font-size: 28px;
+  color: #f7f7f7;
+  font-family: cursive;
 }
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+.hero-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 6px solid #53676a;
+}
+.heading-primary {
+  font-weight: 700;
+  margin-bottom: 12px;
+  font-size: 24px;
+}
+.heading-secondary {
+  font-weight: 600;
+  margin-bottom: 32px;
+  font-size: 20px;
+  color: rgb(175, 222, 224);
+}
+strong {
+  background: linear-gradient(to right, #2dcb9c, #4bc2cd, #1cc972, #e35ecb);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.hero-description {
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0.75px;
+}
+.hero-btn {
+  display: inline-block;
+  padding: 18px 36px;
+  background-color: rgb(187, 217, 219);
+  border: none;
+  color: rgb(66, 66, 66);
+  font-size: 24px;
+  border-radius: 36px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.4s;
+}
+.hero-btn:hover {
+  background-color: rgb(187, 217, 240);
+  color: rgb(64, 66, 68);
+}
+.heading-tertiary {
+  font-weight: 500;
+  font-size: 28px;
+  padding-top: 64px;
+  margin-bottom: 36px;
+  color: rgb(159, 255, 204);
+}
+.about-text {
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0.75px;
+  margin-bottom: 48px;
+}
+.skill {
+  font-size: 22px;
+  color: rgb(205, 233, 230);
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+.html,
+.css,
+.js {
+  margin-right: 16px;
+}
+.experience {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.experience div {
+  background-color: #0d1f34;
+  padding: 36px;
+  border-radius: 18px;
+}
+h4 {
+  font-weight: 600;
+  color: #dddddd;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+.experience-text {
+  margin-top: 24px;
+  font-size: 14px;
+}
+span {
+  font-weight: 400;
+}
+.duration {
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+footer {
+  color: #717171;
+  margin-top: 48px;
+  text-align: center;
+}
+/* .footer-logo {
+  display: inline-block;
+  cursor: pointer;
+  width: 36px;
+  height: 36px;
+  margin: 0 auto;
+} */
