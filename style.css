@@ -66,10 +66,10 @@ header {
   font-weight: 600;
   margin-bottom: 32px;
   font-size: 20px;
-  color: rgb(175, 222, 224);
+  color: #9eafbf;
 }
 strong {
-  background: linear-gradient(to right, #2dcb9c, #4bc2cd, #1cc972, #e35ecb);
+  background: linear-gradient(to right, #cee8eb, #b1e5e9, #73d6dc, #69c7ce);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
